@@ -1,0 +1,51 @@
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.item:not(:last-child) {
+  margin-right: 50px;
+}
+.item:nth-child(1) .button {
+  border-color: #4ecdc4;
+  color: #f7fff7;
+  box-shadow: 0 0 40px 40px #4ecdc4 inset, 0 0 0 0 #4ecdc4;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.item:nth-child(1):hover .button {
+  color: #4ecdc4;
+  box-shadow: 0 0 10px 0 #4ecdc4 inset, 0 0 10px 4px #4ecdc4;
+}
+.item:nth-child(2) .button {
+  border-color: #ffe66d;
+  color: #f7fff7;
+  box-shadow: 0 0 40px 40px #ffe66d inset, 0 0 0 0 #ffe66d;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.item:nth-child(2):hover .button {
+  color: #ffe66d;
+  box-shadow: 0 0 10px 0 #ffe66d inset, 0 0 10px 4px #ffe66d;
+}
+.item:nth-child(3) .button {
+  border-color: #ff6b6b;
+  color: #f7fff7;
+  box-shadow: 0 0 40px 40px #ff6b6b inset, 0 0 0 0 #ff6b6b;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.item:nth-child(3):hover .button {
+  color: #ff6b6b;
+  box-shadow: 0 0 10px 0 #ff6b6b inset, 0 0 10px 4px #ff6b6b;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: transparent;
+  font-style: oblique;
+  font-weight: 500;
+}

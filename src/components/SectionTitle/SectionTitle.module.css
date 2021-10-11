@@ -1,0 +1,6 @@
+.section {
+  text-align: center;
+}
+.section:first-child {
+  margin-bottom: 50px;
+}
